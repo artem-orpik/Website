@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Jupiter</title>
+</head>
+
+<section class="relative h-screen bg-cover bg-center" style="background-image: url('fon.jpg');">
+
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <header class="relative z-10 md:mx-48 mx-4 flex md:flex-row justify-between items-baseline md:py-8 py-4 text-white">
+      <h2 class="md:text-5xl text-2xl  font-bold">Jupiter</h2>
+      <div class="flex md:hidden">
+          <button class="text-3xl">&#9776;</button>
+      </div>
+      <div class="flex gap-8 text-lg hidden md:flex">
+          <a href="#project">О проекте</a>
+          <a href="#environment">Окружение</a>
+          <a href="#offer">Предложения</a>
+          <a href="#comfort">Зона комфорта</a>
+      </div>
+  </header>
+
+  <div class="relative z-10 h-screen md:mx-48 mx-4 md:max-w-3xl flex flex-col md:justify-start md:items-start justify-center items-center gap-8 text-white">
+      <h1 class="md:text-6xl text-4xl font-bold">Тихий дом в самом центре Москвы</h1>
+      <p class="md:text-lg text-base max-w-md">
+          Создатели проекта хотели создать для вас атмосферу бесконечного космического пространства,
+          спокойствия и уединения в окружении элегантных интерьеров
+      </p>
+      <button class="text-base px-16 py-5 bg-[#F3F3F3] text-[#282828]">
+          Записаться на просмотр
+      </button>
+  </div>
+</section>
+
+
+<body class="bg-[#F3F3F3]">
+<div class="md:mx-48 mx-4 md:mt-50 mt-20 flex flex-col md:gap-50 gap-25">
+    <section id="project" class="flex md:flex-row flex-col md:justify-between items-center gap-12">
+        <div class="max-w-xl flex flex-col gap-12">
+            <h2 class="md:text-4xl text-3xl font-bold">О проекте</h2>
+            <p class="md:text-lg text-base">
+                Вдохновением для создания концепции послужила исходная архитектура самого Дома:
+                геометричные элементы парадного фасада, приковывающие к себе внимание, светлые и просторные помещения
+                с пятиметровыми потолками, сразу отсылают к эстетике американского классического арт-деко
+            </p>
+        </div>
+        <img src="1.jpg" class="md:w-[36rem] md:h-[35rem] w-[18rem] h-[20rem] object-cover">
+    </section>
+
+    <section id="environment" class="flex md:flex-row flex-col-reverse md:justify-between items-center gap-12">
+        <img src="2.jpg" class="md:w-[36rem] md:h-[24rem] w-[18rem] h-[20rem] object-cover">
+        <div class="flex flex-col gap-12">
+            <h2 class="text-4xl font-bold">Окружение</h2>
+            <div class="flex flex-col gap-5 max-w-xl">
+                <p class="text-gray-500 text-base">ЦАО Пресненский район, ул.Климашкина, 16</p>
+                <p class="text-base">
+                    Москва-Сити, Центр международной торговли, известные театры, музеи, лучшие рестораны - центр Москвы -
+                    центр притяжения успеха, вдохновения и силы.
+                </p>
+                <p class="text-base">
+                    Идеальное расположение в тихом переулке обеспечивает ощущение клубности и приватности владельцам дома Manhattan
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="offer" class="flex flex-col gap-12">
+        <h2 class="text-4xl font-bold">Предложение</h2>
+        <div class="flex md:flex-row flex-col md:justify-between items-center gap-12">
+            <img src="3.jpg" class="md:w-[36rem] md:h-[25rem]  w-[18rem] h-[20rem] object-cover">
+            <div class="flex flex-col gap-8">
+                <div class="flex flex-col gap-6 max-w-md">
+                    <h2 class="text-xl text-[#282828]">Апартаменты</h2>
+                    <p class="text-base">
+                        Со второго по шестой этаж гармонично спланированы апартаменты различной площади от 35 до 80 м2,
+                        жителям каждого из которых гарантирована максимальная приватность и комфорт
+                    </p>
+                </div>
+                <button class="text-base px-16 py-5 bg-[#282828] text-[#F3F3F3]">Записаться на просмотр</button>
+            </div>
+        </div>
+        <div class="flex md:flex-row flex-col md:justify-between items-center gap-12">
+            <div class="flex flex-col gap-8">
+                <div class="flex flex-col gap-6 max-w-md">
+                    <h2 class="text-xl text-[#282828]">Пентхаусы</h2>
+                    <p class="text-base">
+                        На седьмом этаже Дома предусмотрено несколько пентхаусов. В распоряжении их жителей: высокие полотки 5,5 метров,
+                        свободная планировка для создания стильного, торжественного интерьера
+                    </p>
+                </div>
+                <button class="text-base px-16 py-5 text-[#F3F3F3] bg-[#282828]">Записаться на просмотр</button>
+            </div>
+            <img src="4.jpg" class="md:w-[36rem] md:h-[25rem]  w-[18rem] h-[20rem] object-cover">
+        </div>
+    </section>
+
+    <section id="comfort" class=" flex flex-col gap-12">
+        <h2 class="text-4xl font-bold">Зона комфорта</h2>
+        <div class="flex md:flex-row flex-col md:gap-40 gap-8">
+            <p class="text-base">
+                Путешествие в мир безупречного вкуса, начинается с лобби. Стены украшает покрытие из натурального камня,
+                зеркальные декоративные панно, выполненные по авторскому дизайну. В Доме предусмотрена собственная фитнес зона,
+                на первом этаже, к услугам жителей и их гостей: кафе и продуктовый магазин, аптека, химчистка,
+                салон красоты и медицинский центр
+            </p>
+            <p class="text-base">
+                В северной части дома, для маленьких жителей, удачно расположилась оборудованная площадка для развлечений.
+                Открытая эко-терраса в восточной, тихой и защищенной от городского шума части дома,
+                для тех, кто летом предпочитает выпить чашечку кофе на рассвете под первыми лучами солнца,
+                или тех, кто к полудню решит понежиться на солнышке
+            </p>
+        </div>
+    </section>
+</div>
+</body>
+
+<footer class="bg-[#282828] mt-50">
+    <div class="flex md:flex-row flex-col md:gap-40 md:mx-50 mx-4">
+        <div class="mt-20 max-w-105 flex flex-col gap-4">
+            <h3 class="text-2xl text-white">Запишитесь на просмотр нашего ЖК!</h3>
+            <label></label>
+            <input type="text" class="w-full border-b border-gray-400 text-white" placeholder="имя">
+            <label></label>
+            <input type="text" class="w-full border-b border-gray-400 text-white" placeholder="телефон">
+            <div class="flex items-center pt-10">
+                        <input type="checkbox" id="consent" class="mr-2 h-4 w-4">
+                        <label for="consent" class="text-sm text-gray-400">
+                          Даю согласие на обработку Персональных данных</a>
+                        </label>
+            </div>
+            <button class="text-base px-16 py-5 bg-[#F3F3F3] text-black">Оставить заявку</button>
+        </div>
+        <div class="mt-20 flex flex-col md:gap-15 gap-8">
+            <h3 class="text-2xl text-white">Контакты</h3>
+            <div class="flex md:flex-row flex-col md:justify-betweenj  md:gap-30 gap-8">
+                <div class="flex flex-col gap-2">
+                    <p class="text-white font-bold">Адрес</p>
+                    <div class="text-[#909090]">
+                    <p>ул. Знаменка, 11, Москва</p>
+                    <p>Email: hello@jupiter.com</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <p class="text-white font-bold">Соцсети</p>
+                    <ul class="text-[#909090]">
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-[#909090] flex md:flex-row flex-col md:justify-between md:mx-50 mx-4 md:mt-40 mt-20 pb-10 -full border-t border-gray-500">
+        <div class="flex md:flex-row flex-col md:justify-between md:gap-5 ">
+            <p>Пресса</p>
+            <p>Карьера</p>
+            <p>Политика конфиденциальности</p></div>
+            <p class="md:mt-0 mt-8 ">Made by MMF</p>
+    </div>
+</footer>
+</html>
